@@ -25,30 +25,33 @@ theme:
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jaschadub
+      name: jascha on GitHub
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/jascha
       name: jascha on Twitter
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/jaschaw
       name: jascha on LinkedIn
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/jascha.me
+      name: jascha on Bluesky
     - icon: fontawesome/brands/mastodon
-      link: https://cryptocartel.social/@jascha
+      link: https://infosec.exchange/@jascha
       name: jascha on Mastodon
-    - icon: fontawesome/brands/github
-      link: https://github.com/jaschadub
-      name: jascha on GitHub
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/jaschadub
-      name: jascha on IG
+      name: jascha on Instagram
 
 copyright: Copyright &copy; 2019 - 2025 Jascha Wanger
 
 nav:
   - Home: index.md
   - About: about/index.md
-  - Blog: 
+  - Blog:
     - Overview: blog/index.md
-    - Getting Started with MkDocs: blog/sample-post.md
+    - Introducing AAEQ: blog/sample-post.md
 
 plugins:
   - search

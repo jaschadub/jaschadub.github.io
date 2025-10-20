@@ -1,94 +1,101 @@
 ---
-title: Getting Started with MkDocs
-date: 2025-05-18
+title: Introducing AAEQ - Adaptive Audio Equalizer
+date: 2025-10-20
 tags:
-  - mkdocs
-  - tutorial
+  - rust
+  - audio
+  - open-source
 ---
 
-# Getting Started with MkDocs
+# Introducing AAEQ: Adaptive Audio Equalizer
 
-*Posted on May 18, 2025*
+*Posted on October 20, 2025*
 
-[MkDocs](https://www.mkdocs.org/) is a fantastic static site generator that's perfect for documentation sites, blogs, and personal websites. In this post, I'll share why I chose MkDocs for my personal site and how you can get started with it too.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jaschadub/AAEQ/main/docs/aaeq-logo-tranbg.png" alt="AAEQ Logo" width="300"/>
+</p>
 
-## Why MkDocs?
+I'm excited to share [AAEQ](https://github.com/jaschadub/AAEQ), a cross-platform desktop application that brings intelligent EQ management and real-time DSP processing to your network audio devices.
 
-There are plenty of static site generators out there, so why choose MkDocs?
+## What is AAEQ?
 
-1. **Markdown-based** - Write content in simple Markdown format
-2. **Python-powered** - Easy to extend and customize
-3. **Great themes** - Especially the Material theme
-4. **Fast** - Quick build times and optimized output
-5. **Simple configuration** - Just one YAML file
+AAEQ (Adaptive Audio Equalizer) automatically applies per-song, album, or genre EQ presets to your network audio devices. Set your favorite EQ once, and AAEQ remembers and applies it automatically whenever that music plays.
 
-## Quick Start Guide
+Built in Rust for performance and reliability, AAEQ offers two powerful modes:
 
-Getting started with MkDocs is straightforward:
+### EQ Management Mode
+
+Intelligent EQ switching for WiiM and DLNA devices:
+
+- **Smart Priority System** - Automatically applies EQ based on song → album → genre → default
+- **Now Playing Detection** - Tracks what's playing via WiiM API or MPRIS (Spotify, Strawberry, etc.)
+- **Album Art Display** - Shows current track artwork
+- **EQ Curve Visualization** - View exact frequency response for any preset
+
+### DSP Streaming Mode
+
+Real-time audio processing and streaming:
+
+- **System Audio Capture** - Capture and process any audio from your computer
+- **10-Band Parametric EQ** - Precise frequency control with custom presets
+- **Multi-Format Streaming** - Stream to DLNA devices, local DAC, or AirPlay
+- **Live Visualization** - Real-time waveform and spectrum analyzer
+- **Professional Metering** - VU-style meters showing pre/post-EQ levels
+
+## Key Features
+
+**Multiple Profiles**
+Create separate EQ mapping profiles for different scenarios - "Headphones", "Speakers", "Living Room". Switch instantly and the same songs apply different EQ settings.
+
+**Custom Presets**
+Build and save unlimited custom EQ presets with full parametric control over frequency, gain, and Q factor for each band.
+
+**Theme System**
+Choose from 5 color themes: Dark, Light, WinAmp, Vintage, and Studio.
+
+**Local-First**
+All data stored locally in SQLite. No cloud, no tracking, no subscriptions.
+
+## Why I Built This
+
+As someone who listens to a wide variety of music genres throughout the day, I was frustrated by constantly tweaking EQ settings on my WiiM devices. Different genres and albums sound better with different EQ curves, but manually changing presets dozens of times a day was tedious.
+
+AAEQ solves this by remembering your preferences and applying them automatically. Once configured, it runs in the background and "just works" - exactly how software should behave.
+
+The DSP streaming mode came from wanting to apply processing to audio sources that don't support EQ natively. Now I can capture system audio, apply custom EQ and effects, and stream the processed audio to any network device.
+
+## Technical Highlights
+
+Building AAEQ pushed me to explore several interesting technical areas:
+
+- **Rust for Desktop** - Using egui for immediate-mode GUI with excellent performance
+- **Real-Time DSP** - Implementing parametric EQ, compression, and FFT-based analysis
+- **Network Protocols** - Working with DLNA/UPnP discovery and streaming
+- **Audio Subsystems** - Cross-platform audio I/O with ALSA, CoreAudio, and WASAPI
+- **Database Design** - Efficient SQLite schema for EQ mappings and profiles
+
+The codebase is structured as a Cargo workspace with clearly separated concerns: core logic, device integration, persistence, streaming server, and UI.
+
+## Get Started
+
+AAEQ runs on Linux, macOS, and Windows. Pre-built binaries are available on the [releases page](https://github.com/jaschadub/AAEQ/releases), or you can build from source:
 
 ```bash
-# Install MkDocs and the Material theme
-pip install mkdocs mkdocs-material
-
-# Create a new project
-mkdocs new my-website
-cd my-website
-
-# Start the development server
-mkdocs serve
+git clone https://github.com/jaschadub/AAEQ.git
+cd AAEQ
+cargo build --release
+./target/release/aaeq
 ```
 
-Then open `http://localhost:8000` in your browser, and you'll see your site!
+The project is open source under the MIT license. Contributions, feature requests, and bug reports are welcome!
 
-## Basic Site Structure
+## What's Next
 
-A simple MkDocs site has this structure:
+I'm actively developing AAEQ with several features planned:
 
-```
-my-website/
-├── docs/
-│   └── index.md
-└── mkdocs.yml
-```
+- Enhanced macOS and Windows audio capture support
+- Additional DSP effects (reverb, stereo imaging)
+- Cloud sync for EQ mappings (optional)
+- Plugin system for custom audio processing
 
-The `mkdocs.yml` file controls your site configuration:
-
-```yaml
-site_name: My Website
-theme: material
-nav:
-  - Home: index.md
-  - About: about.md
-```
-
-## Adding Content
-
-Creating content is as simple as adding Markdown files to your `docs/` directory. For example, to add an about page:
-
-1. Create `docs/about.md`
-2. Add "About" to your navigation in `mkdocs.yml`
-3. Write your content in Markdown
-
-## Advanced Features
-
-MkDocs with the Material theme offers many advanced features:
-
-- Syntax highlighting for code
-- Search functionality
-- Dark mode support
-- Icon integration
-- Admonitions (note blocks, warnings, etc.)
-- And much more!
-
-## Example Admonition
-
-Here's a simple example of an admonition:
-
-!!! tip "Pro Tip"
-    You can use `mkdocs gh-deploy` to automatically build and deploy your site to GitHub Pages.
-
-## Conclusion
-
-MkDocs is an excellent choice for creating documentation sites, personal websites, or blogs. It's simple to use yet powerful enough for complex sites.
-
-In future posts, I'll dive deeper into customizing MkDocs and share some of my favorite plugins and extensions.
+Check out the [GitHub repository](https://github.com/jaschadub/AAEQ) to learn more, try it out, or contribute to the project.
