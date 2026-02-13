@@ -9,16 +9,16 @@ I'm building the future of AI security at [ThirdKey](https://thirdkey.ai), where
 ### Active Projects
 
 **[Symbiont](https://github.com/thirdkeyai/symbiont)**
-An AI-native, privacy-first programming language and agent framework for autonomous, policy-aware software development.
+An AI-native, privacy-first programming language and agent framework for autonomous, policy-aware software development. [symbiont.dev](https://symbiont.dev)
 
 **[SchemaPin](https://github.com/ThirdKeyAI/SchemaPin)**
-A cryptographic protocol that ensures tool schema integrity for AI agents, preventing "MCP Rug Pull" attacks by enabling developers to sign schemas and clients to verify them.
+A cryptographic protocol that ensures tool schema integrity for AI agents, preventing "MCP Rug Pull" attacks by enabling developers to sign schemas and clients to verify them. [schemapin.org](https://schemapin.org)
 
 **[AgentPin](https://github.com/ThirdKeyAI/AgentPin)**
 An open registry and verification protocol for AI agent identity. [agentpin.org](https://agentpin.org)
 
 **[MockLoop](https://github.com/MockLoop)**
-The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios.
+The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios. [mockloop.com](https://mockloop.com)
 
 ## Security Research
 
