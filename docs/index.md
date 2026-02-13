@@ -14,11 +14,11 @@ An AI-native, privacy-first programming language and agent framework for autonom
 **[SchemaPin](https://github.com/ThirdKeyAI/SchemaPin)**
 A cryptographic protocol that ensures tool schema integrity for AI agents, preventing "MCP Rug Pull" attacks by enabling developers to sign schemas and clients to verify them.
 
-**[MockLoop](https://github.com/MockLoop)**
-The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios.
-
 **[AgentPin](https://github.com/ThirdKeyAI/AgentPin)**
 An open registry and verification protocol for AI agent identity. [agentpin.org](https://agentpin.org)
+
+**[MockLoop](https://github.com/MockLoop)**
+The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios.
 
 ## Security Research
 
