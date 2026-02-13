@@ -41,7 +41,4 @@ I'm always interested in discussing AI security, cloud architecture, and emergin
 [LinkedIn](https://www.linkedin.com/in/jaschaw) • [GitHub](https://github.com/jaschadub) • [Hugging Face](https://huggingface.co/jaschadub)
 
 **Social Media**
-[Twitter](https://twitter.com/jascha) • [Bluesky](https://bsky.app/profile/jascha.me) • [Mastodon](https://infosec.exchange/@jascha)
-
-**Other**
-[Instagram](https://instagram.com/jaschadub) • [GoodReads](https://www.goodreads.com/jaschadub)
+[Twitter](https://twitter.com/jascha) • [Bluesky](https://bsky.app/profile/jascha.me) • [Mastodon](https://infosec.exchange/@jascha) • [Instagram](https://instagram.com/jaschadub)

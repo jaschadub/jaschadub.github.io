@@ -1,6 +1,6 @@
-# Welcome
+# Jascha's README.md
 
-I'm a technologist with over 25 years of experience building secure, scalable systems at the intersection of AI, cybersecurity, and cloud infrastructure. Currently focused on developing next-generation AI security solutions.
+I'm a technologist with over 30 years of experience building secure, scalable systems at the intersection of AI, cybersecurity, and cloud infrastructure. Currently focused on developing next-generation AI security solutions.
 
 ## Current Work
 
@@ -16,6 +16,9 @@ A cryptographic protocol that ensures tool schema integrity for AI agents, preve
 
 **[MockLoop](https://github.com/MockLoop)**
 The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios.
+
+**[AgentPin](https://github.com/ThirdKeyAI/AgentPin)**
+An open registry and verification protocol for AI agent identity. [agentpin.org](https://agentpin.org)
 
 ## Security Research
 
