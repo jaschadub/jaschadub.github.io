@@ -2,12 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jascha.me/</loc>
-         <lastmod>2022-11-18</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-02-13</lastmod>
     </url>
     <url>
          <loc>https://jascha.me/about/</loc>
-         <lastmod>2022-11-18</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+    <url>
+         <loc>https://jascha.me/blog/</loc>
+         <lastmod>2026-02-13</lastmod>
+    </url>
+    <url>
+         <loc>https://jascha.me/blog/sample-post/</loc>
+         <lastmod>2026-02-13</lastmod>
     </url>
 </urlset>
