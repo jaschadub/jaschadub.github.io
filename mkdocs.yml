@@ -51,6 +51,7 @@ nav:
   - About: about/index.md
   - Blog:
     - Overview: blog/index.md
+    - "Your Dark Factory Needs a Security Perimeter": blog/dark-factory-security-perimeter.md
     - Introducing AAEQ: blog/sample-post.md
 
 plugins:
