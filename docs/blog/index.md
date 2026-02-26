@@ -4,6 +4,11 @@ Occasional thoughts on AI security, software development, and open source projec
 
 ## Recent Posts
 
+### [What Agentic AI Can Learn from DOS Viruses](agentic-ai-dos-viruses.md)
+*February 26, 2026*
+
+The structural parallels between DOS-era malware and modern agentic AI systems are deep enough to be instructive. Interrupt vector tables were the first tool registries, TSR programs were the first persistent agents, and stealth viruses pioneered the exact interposition attacks we now face with prompt injection.
+
 ### [Your Dark Factory Needs a Security Perimeter](dark-factory-security-perimeter.md)
 *February 20, 2026*
 
