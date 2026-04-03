@@ -54,7 +54,6 @@ nav:
     - "Clean Rooms, Dirty Pipes: PHALUS and the Supply Chain Paradox": blog/phalus-clean-room-supply-chain.md
     - "What Agentic AI Can Learn from DOS Viruses": blog/agentic-ai-dos-viruses.md
     - "Your Dark Factory Needs a Security Perimeter": blog/dark-factory-security-perimeter.md
-    - Introducing AAEQ: blog/sample-post.md
 
 plugins:
   - search
