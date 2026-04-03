@@ -55,5 +55,8 @@ nav:
     - "What Agentic AI Can Learn from DOS Viruses": blog/agentic-ai-dos-viruses.md
     - "Your Dark Factory Needs a Security Perimeter": blog/dark-factory-security-perimeter.md
 
+markdown_extensions:
+  - attr_list
+
 plugins:
   - search

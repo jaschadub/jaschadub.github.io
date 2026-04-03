@@ -12,7 +12,7 @@ tags:
 
 *Posted on February 26, 2026*
 
-There's a GitHub repository called [palware](https://github.com/64kramsystem/palware), short for "paleolithic malware," that contains modern disassemblies of DOS-era viruses. Boot sector infectors, tiny COM parasites, memory-resident hookers of INT 21h. The kind of code that terrorized sysadmins in the late 80s and early 90s, written in hand-optimized x86 assembly, often fitting in under a kilobyte. In the early 2000s I used honeypots like [mwcollect](https://web.archive.org/web/20060516215455/http://www.mwcollect.org/) to gather malware and reverse engineer it in my early days of research in that area.
+There's a GitHub repository called <a href="https://github.com/64kramsystem/palware" target="_blank">palware</a>, short for "paleolithic malware," that contains modern disassemblies of DOS-era viruses. Boot sector infectors, tiny COM parasites, memory-resident hookers of INT 21h. The kind of code that terrorized sysadmins in the late 80s and early 90s, written in hand-optimized x86 assembly, often fitting in under a kilobyte. In the early 2000s I used honeypots like <a href="https://web.archive.org/web/20060516215455/http://www.mwcollect.org/" target="_blank">mwcollect</a> to gather malware and reverse engineer it in my early days of research in that area.
 
 I've been spending a lot of time thinking about security architectures for autonomous AI agents. What happens when you have software entities that can call tools, make decisions, persist across sessions, and act on behalf of humans? I keep finding that the conceptual vocabulary I need already exists. It was invented by virus authors and antivirus researchers thirty years ago.
 
@@ -78,4 +78,4 @@ Studying disassemblies like the ones in palware isn't nostalgia. It's reading th
 
 ---
 
-*I'm currently building the [ThirdKey Trust Stack](https://github.com/ThirdKeyAI), an open-source cryptographic framework addressing exactly these problems: [SchemaPin](https://github.com/ThirdKeyAI/SchemaPin) for tool integrity verification, [AgentPin](https://github.com/ThirdKeyAI/AgentPin) for AI agent identity, and [Symbiont](https://github.com/ThirdKeyAI/Symbiont) for zero-trust agent runtime. If any of this resonates, come build with us.*
+*I'm currently building the <a href="https://github.com/ThirdKeyAI" target="_blank">ThirdKey Trust Stack</a>, an open-source cryptographic framework addressing exactly these problems: <a href="https://github.com/ThirdKeyAI/SchemaPin" target="_blank">SchemaPin</a> for tool integrity verification, <a href="https://github.com/ThirdKeyAI/AgentPin" target="_blank">AgentPin</a> for AI agent identity, and <a href="https://github.com/ThirdKeyAI/Symbiont" target="_blank">Symbiont</a> for zero-trust agent runtime. If any of this resonates, come build with us.*

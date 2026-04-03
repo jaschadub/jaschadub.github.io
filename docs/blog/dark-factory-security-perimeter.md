@@ -92,4 +92,4 @@ The factories are going dark. The question is whether anyone is watching the per
 
 ---
 
-*Jascha Wanger is the founder of ThirdKey AI, building trust infrastructure for enterprise AI agents. More at [symbiont.dev](https://symbiont.dev), [agentpin.org](https://agentpin.org), and [schemapin.org](https://schemapin.org).*
+*Jascha Wanger is the founder of ThirdKey AI, building trust infrastructure for enterprise AI agents. More at <a href="https://symbiont.dev" target="_blank">symbiont.dev</a>, <a href="https://agentpin.org" target="_blank">agentpin.org</a>, and <a href="https://schemapin.org" target="_blank">schemapin.org</a>.*
