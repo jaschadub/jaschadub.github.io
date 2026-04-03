@@ -17,8 +17,11 @@ A cryptographic protocol that ensures tool schema integrity for AI agents, preve
 **[AgentPin](https://github.com/ThirdKeyAI/AgentPin)**
 An open registry and verification protocol for AI agent identity. [agentpin.org](https://agentpin.org)
 
-**[MockLoop](https://github.com/MockLoop)**
-The first AI-native API testing platform using the Model Context Protocol (MCP). Automatically generates, executes, and analyzes intelligent test scenarios. [mockloop.com](https://mockloop.com)
+**[ToolClad](https://toolclad.org)**
+Declarative `.clad.toml` manifests that define typed parameters, command construction, output parsing, and policy metadata for AI agent tools. The LLM fills parameters — the executor validates and constructs commands. [toolclad.org](https://toolclad.org)
+
+**[TrustVer](https://trustver.org)**
+Provenance-aware versioning for AI-era software. Know how much effort an update requires, who or what wrote it, and what verification was applied. [trustver.org](https://trustver.org)
 
 ## Security Research
 
