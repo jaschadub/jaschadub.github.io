@@ -4,6 +4,11 @@ Occasional thoughts on AI security, software development, and open source projec
 
 ## Recent Posts
 
+### [Clean Rooms, Dirty Pipes: PHALUS and the Supply Chain Paradox](phalus-clean-room-supply-chain.md)
+*April 3, 2026*
+
+In 1984, Phoenix Technologies hired a programmer who had never seen an Intel 8088 manual to write a functionally equivalent IBM PC BIOS from scratch. Forty-two years later, PHALUS does the same thing in about ninety seconds, with no humans in the room at all. A look at what automated clean-room reimplementation means for the future of open source.
+
 ### [What Agentic AI Can Learn from DOS Viruses](agentic-ai-dos-viruses.md)
 *February 26, 2026*
 
