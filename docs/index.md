@@ -23,6 +23,9 @@ Declarative `.clad.toml` manifests that define typed parameters, command constru
 **[TrustVer](https://trustver.org)**
 Provenance-aware versioning for AI-era software. Know how much effort an update requires, who or what wrote it, and what verification was applied. [trustver.org](https://trustver.org)
 
+**[OATS](https://github.com/ThirdKeyAI/OpenAgentTrustStack)**
+Open Agent Trust Stack — a system specification for zero-trust AI agent execution that enforces security through structural constraints on tool invocations, compile-time phase enforcement, and cryptographic audit trails. [openagenttruststack.org](https://openagenttruststack.org)
+
 ## Security Research
 
 My recent work focuses on AI system security, exploring both offensive and defensive perspectives:
