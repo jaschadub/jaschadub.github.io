@@ -4,6 +4,11 @@ Occasional thoughts on AI security, software development, and open source projec
 
 ## Recent Posts
 
+### [Your AI Agent Will Cheat. Mine Can't.](ai-agent-cheating-benchmarks.md)
+*April 13, 2026*
+
+The benchmark crisis isn't about dishonest AI companies. It's about models doing exactly what we told them to do. From Claude finding the BrowseComp answer key to models rewriting unit tests to pass, the pattern is clear: deny-list governance can't keep up. Allow-list architectures make shortcuts structurally impossible.
+
 ### [Clean Rooms, Dirty Pipes: PHALUS and the Supply Chain Paradox](phalus-clean-room-supply-chain.md)
 *April 3, 2026*
 
