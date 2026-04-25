@@ -2,6 +2,8 @@
 
 Peer-shareable research and specifications on AI agent security, zero-trust execution, and cryptographic infrastructure for autonomous systems. Archived on Zenodo for citation and long-term preservation.
 
+Author identifier: [ORCID 0009-0005-7040-8751](https://orcid.org/0009-0005-7040-8751){target="_blank"}
+
 ## Papers
 
 ### [Typestate-Enforced Agent Loops: Making Policy Gates Unskippable at Compile Time](https://zenodo.org/records/19746724){target="_blank"}

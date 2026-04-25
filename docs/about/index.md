@@ -38,7 +38,7 @@ I'm a strong believer in open source software and regularly contribute to and ma
 I'm always interested in discussing AI security, cloud architecture, and emerging technologies.
 
 **Professional Networks**
-[LinkedIn](https://www.linkedin.com/in/jaschaw) • [GitHub](https://github.com/jaschadub) • [Hugging Face](https://huggingface.co/jaschadub)
+[LinkedIn](https://www.linkedin.com/in/jaschaw) • [GitHub](https://github.com/jaschadub) • [Hugging Face](https://huggingface.co/jaschadub) • [ORCID](https://orcid.org/0009-0005-7040-8751)
 
 **Social Media**
 [Twitter](https://twitter.com/jascha) • [Bluesky](https://bsky.app/profile/jascha.me) • [Mastodon](https://infosec.exchange/@jascha) • [Instagram](https://instagram.com/jaschadub)
