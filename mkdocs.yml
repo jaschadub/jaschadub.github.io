@@ -49,6 +49,7 @@ copyright: Copyright &copy; 2019 - 2026 Jascha Wanger
 nav:
   - Home: index.md
   - About: about/index.md
+  - Research: research/index.md
   - Blog:
     - Overview: blog/index.md
     - "Your AI Agent Will Cheat. Mine Can't.": blog/ai-agent-cheating-benchmarks.md

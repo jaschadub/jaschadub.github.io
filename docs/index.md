@@ -39,6 +39,11 @@ Research into covert channels using vector embeddings, demonstrating data exfilt
 **[HarmonyDagger](https://github.com/jaschadub/harmonydagger)**
 A security-focused system including CLI, API, and deployment tooling.
 
+## Personal Projects
+
+**[Glum](https://github.com/jaschadub/glum)**
+A reading-focused terminal markdown viewer written in Rust — more "Reader Mode in your terminal" than a markdown-as-markdown renderer. Configurable column width, syntax-highlighted code blocks, search, table of contents overlay, and smart typography.
+
 ## Professional Background
 
 Throughout my career, I've focused on:
