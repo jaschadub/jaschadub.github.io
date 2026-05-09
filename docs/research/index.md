@@ -6,6 +6,14 @@ Author identifier: [ORCID 0009-0005-7040-8751](https://orcid.org/0009-0005-7040-
 
 ## Papers
 
+### [VectorSmuggle: Steganographic Exfiltration in Embedding Stores and a Cryptographic Provenance Defense](https://zenodo.org/records/20076420){target="_blank"}
+*May 6, 2026 — Preprint v1.2*
+
+An investigation into how attackers with write access to RAG ingestion pipelines can hide payload data inside vector embeddings using techniques like noise injection, rotation, and scaling while preserving normal retrieval behavior. The paper proposes **[VectorPin](https://vectorpin.org){target="_blank"}**, a cryptographic provenance defense using Ed25519 signatures to authenticate embeddings against source content and models. Evaluated across multiple embedding models (OpenAI, Nomic, EmbeddingGemma, others) and vector databases (FAISS, Chroma, Qdrant).
+
+DOI: [10.5281/zenodo.20076420](https://doi.org/10.5281/zenodo.20076420){target="_blank"} • [PDF](https://zenodo.org/records/20076420/files/vectorsmuggle_v1_2.pdf?download=1){target="_blank"}
+Reference implementation: [VectorSmuggle](https://github.com/jaschadub/VectorSmuggle){target="_blank"}
+
 ### [Typestate-Enforced Agent Loops: Making Policy Gates Unskippable at Compile Time](https://zenodo.org/records/19746724){target="_blank"}
 *April 25, 2026 — Preprint v0.3*
 
