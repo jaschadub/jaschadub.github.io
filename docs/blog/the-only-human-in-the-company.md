@@ -87,3 +87,5 @@ These came out of the rebuild and the research that led into it. The OATS spec a
 **OATS.** The specification the three papers attach to. It now states that it was informed by roughly nine months of autonomous operation in a production runtime, including rebuilding a codebase using the runtime's own agent infrastructure after a catastrophic loss event. That clause is the fire. <a href="https://openagenttruststack.org" target="_blank">openagenttruststack.org</a> · <a href="https://zenodo.org/records/20298543" target="_blank">zenodo.org/records/20298543</a>
 
 Two more pieces of the same stack, without papers of their own here: SchemaPin (<a href="https://schemapin.org" target="_blank">schemapin.org</a>), which signs tool schemas so an agent cannot be quietly handed a swapped definition, and AgentPin (<a href="https://agentpin.org" target="_blank">agentpin.org</a>), which gives an agent a cryptographic identity. Same principle, a different layer.
+
+Learn more at <a href="https://thirdkey.ai" target="_blank">ThirdKey.ai</a>
