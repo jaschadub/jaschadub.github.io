@@ -20,6 +20,9 @@ An open registry and verification protocol for AI agent identity. [agentpin.org]
 **[ToolClad](https://toolclad.org)**
 Declarative `.clad.toml` manifests that define typed parameters, command construction, output parsing, and policy metadata for AI agent tools. The LLM fills parameters — the executor validates and constructs commands. [toolclad.org](https://toolclad.org)
 
+**[VectorPin](https://github.com/ThirdKeyAI/VectorPin)**
+Cryptographic provenance for vector embeddings. Binds every embedding to its source text and the model that produced it with an Ed25519 signature, so an embedding carrying a hidden payload cannot present itself as legitimate. [vectorpin.org](https://vectorpin.org)
+
 **[TrustVer](https://trustver.org)**
 Provenance-aware versioning for AI-era software. Know how much effort an update requires, who or what wrote it, and what verification was applied. [trustver.org](https://trustver.org)
 
