@@ -27,7 +27,7 @@ Designing and implementing large-scale infrastructure, automation pipelines, and
 Offensive and defensive security, threat modeling, security architecture, and building secure systems from the ground up.
 
 **Software Development**
-Full-stack development with expertise in Python, FastAPI, and modern development practices. Strong advocate for code quality and maintainability.
+Full-stack and systems development with expertise in Rust, Python, FastAPI, and TypeScript, alongside modern development practices. Strong advocate for type-safe design, code quality, and maintainability.
 
 ## Open Source
 
