@@ -12,7 +12,7 @@ tags:
 
 *Posted on June 2, 2026*
 
-![A fireproof safe burned and warped by the Eaton Fire, its lid scorched and its contents destroyed — the backup that was supposed to survive, didn't.](../img/firesafe.jpg)
+![A fireproof safe burned and warped by the Eaton Fire, its lid scorched and its contents destroyed — the backup that was supposed to survive, didn't.](../img/firesafe.jpg){ width="70%" }
 
 ThirdKey has one employee. Me.
 
