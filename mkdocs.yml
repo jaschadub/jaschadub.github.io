@@ -52,6 +52,7 @@ nav:
   - Research: research/index.md
   - Blog:
     - Overview: blog/index.md
+    - "The Only Human in the Company": blog/the-only-human-in-the-company.md
     - "Your AI Agent Will Cheat. Mine Can't.": blog/ai-agent-cheating-benchmarks.md
     - "Clean Rooms, Dirty Pipes: PHALUS and the Supply Chain Paradox": blog/phalus-clean-room-supply-chain.md
     - "What Agentic AI Can Learn from DOS Viruses": blog/agentic-ai-dos-viruses.md

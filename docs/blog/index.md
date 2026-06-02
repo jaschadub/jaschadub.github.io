@@ -4,6 +4,11 @@ Occasional thoughts on AI security, software development, and open source projec
 
 ## Recent Posts
 
+### [The Only Human in the Company](the-only-human-in-the-company.md)
+*June 2, 2026*
+
+ThirdKey has one employee. After the Eaton Fire took my house and the private enterprise codebase with it, I rebuilt the runtime using the runtime — agents governed by the open-source layer, building the layer on top. A first-person account of why a compile-time policy gate let me hand a codebase to long-running agents, what a year inside my own security model proved, and the proof I did not want.
+
 ### [Your AI Agent Will Cheat. Mine Can't.](ai-agent-cheating-benchmarks.md)
 *April 13, 2026*
 
