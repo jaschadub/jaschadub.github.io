@@ -4,6 +4,11 @@ Occasional thoughts on AI security, software development, and open source projec
 
 ## Recent Posts
 
+### [A Standard Is a Paradigm You Can't Take Back](a-standard-is-a-paradigm.md)
+*June 8, 2026*
+
+An incomplete standard you can fix. The dangerous one ships looking finished, becomes a procurement checkbox, and freezes the field around the wrong paradigm. A recent runtime security spec for AI agents mandates interception and intent-alignment as its non-negotiable core — reactive, deny-list thinking promoted to a MUST — while least-privilege scoping, the control closest to prevention, is left optional. Why standardizing the racing model is worse than no standard at all.
+
 ### [The Only Human in the Company](the-only-human-in-the-company.md)
 *June 2, 2026*
 

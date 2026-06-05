@@ -52,6 +52,7 @@ nav:
   - Research: research/index.md
   - Blog:
     - Overview: blog/index.md
+    - "A Standard Is a Paradigm You Can't Take Back": blog/a-standard-is-a-paradigm.md
     - "The Only Human in the Company": blog/the-only-human-in-the-company.md
     - "Your AI Agent Will Cheat. Mine Can't.": blog/ai-agent-cheating-benchmarks.md
     - "Clean Rooms, Dirty Pipes: PHALUS and the Supply Chain Paradox": blog/phalus-clean-room-supply-chain.md
