@@ -14,7 +14,9 @@ tags:
 
 An incomplete standard is a fixable thing. You ship v1.0, you track errata, you plan v2.0. Fine. The dangerous case is the standard that ships looking finished and effective when it is neither, because at that point it stops being a document and becomes a procurement checkbox. The checkbox travels faster than the nuance, and it travels into exactly the places that can least afford to be wrong: regulated buyers who read "conformant" as "safe."
 
-A recently published runtime security specification for AI agents is a clean example. It carries the imprimatur of a well-known body, it has a registry of sixty-plus "builders" and a handful of mainly black-boxed products already badged conformant, and it reads like a mature category definition. It is also a near-perfect demonstration of how a standard can codify the wrong paradigm and then freeze the whole field around it.
+AARM (Autonomous Action Runtime Management) is a clean example. It carries the imprimatur of a well-known body, it has a public ecosystem of sixty-plus listed builders (per the project's directory as of May 2026), a handful of conformant-badged products, and it reads like a mature category definition. It is also a near-perfect demonstration of how a standard can codify the wrong paradigm and then freeze the whole field around it.
+
+AARM gets real things right. Its identification of the action layer as the stable security boundary is correct. This post is about the paradigm it encodes at that boundary, not the people building it.
 
 ## What it actually mandates
 
@@ -28,7 +30,11 @@ But audit is forensics. It tells you what happened after it happened. A standard
 
 The first and most emphatic requirement is interception: every action passes through a control plane before it executes, and this is described as non-negotiable. Read that closely. It assumes the dangerous action is fully expressible, gets constructed by the agent, and then gets caught in flight. That is deny-list thinking promoted to a MUST. You are racing the agent. You win when your evaluator is smarter than the attacker who shaped the agent's behavior, and you lose otherwise.
 
-The alternative paradigm does not race anyone. You make the dangerous action structurally inexpressible. The agent holds a set of capabilities, and the set of actions it can even form is the set of safe actions. There is nothing to intercept because there is nothing to catch. A standard that mandates interception as the floor has quietly decided the industry should build the racing kind, not the constructive kind.
+The alternative paradigm does not race anyone. You make the dangerous action structurally inexpressible. The agent holds a set of typed capabilities, and the set of actions it can even form is the set of safe actions. There is nothing to intercept because there is nothing to catch.
+
+A concrete example from our evaluation: a file-reading agent given a permissive Python baseline escaped 94% of the time by reading secret files outside its scope. The same agent running under Symbiont escaped 0% of the time across 80 trials. Not because a policy caught the bad reads. Because the typed tool contract only accepts paths matching an approved directory pattern. ToolClad's path validator rejected 177 hostile read attempts. The dangerous action was not intercepted. It was inexpressible.
+
+A standard that mandates interception as the floor has quietly decided the industry should build the racing kind, not the constructive kind.
 
 ## Intent alignment puts the model back inside the trust boundary
 
@@ -38,7 +44,7 @@ Evaluating the action itself against a fixed policy is fine. That is capability 
 
 ## The priority ordering gives the game away
 
-Least-privilege scoping, arguably the single most effective structural control in the whole document, is a SHOULD. Runtime interception is a MUST. Semantic drift detection, a probabilistic classifier that degrades under adversarial pressure, is in there as well, also optional.
+Least-privilege scoping, arguably the single most effective structural control in the whole document, is a SHOULD. Runtime interception is a MUST.
 
 So the thing closest to prevention is optional, and the thing that is reactive by construction is mandatory. That ordering is not an accident of drafting. It is the paradigm showing through.
 
@@ -58,4 +64,4 @@ And a standard does one more thing a whitepaper does not: it freezes a vocabular
 
 If you are going to standardize agent security, standardize prevention, not interception. Make dangerous actions inexpressible rather than catchable. Keep the gate a structurally independent phase the model cannot influence. Push enforcement to construction time and make it verifiable, instead of leaning on a runtime evaluator guessing at intent. Keep the audit layer, it is good, but be honest that it is the record, not the lock.
 
-That is the line we have taken with OATS. The point of this post is not the alternative spec. The point is the failure mode. The most dangerous specification is not the one that admits it is unfinished. It is the one that looks finished, gets adopted, and turns out to have standardized the thing we should have been trying to replace.
+That is the line we have tried to take with OATS: prevention first, independent enforcement, audit as evidence rather than protection. The point of this post is not the alternative spec. The point is the failure mode. The most dangerous specification is not the one that admits it is unfinished. It is the one that looks finished, gets adopted, and turns out to have standardized the thing we should have been trying to replace.
