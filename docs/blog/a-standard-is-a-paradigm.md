@@ -12,7 +12,9 @@ tags:
 
 *Posted on June 8, 2026*
 
-An incomplete standard is a fixable thing. You ship v1.0, you track errata, you plan v2.0. Fine. The dangerous case is the standard that ships looking finished and effective when it is neither, because at that point it stops being a document and becomes a procurement checkbox. The checkbox travels faster than the nuance, and it travels into exactly the places that can least afford to be wrong: regulated buyers who read "conformant" as "safe."
+> **Note:** This post offers a perspective on how industry "standards" can unintentionally ossify practices and create a checkbox mentality. It is not an allegation of fraud or misconduct. Frameworks like AARM are built in good faith and have legitimate value, but organizations should critically evaluate how they implement and rely on them.
+
+An incomplete standard is a fixable thing. You ship v1.0, you track errata, you plan v2.0. Fine. The risk arises when a standard appears finished and authoritative, even while it is still evolving, potentially leading organizations to treat it as a definitive measure rather than guidance, because at that point it stops being a document and becomes a procurement checkbox. The checkbox travels faster than the nuance, and it travels into exactly the places that can least afford to be wrong: regulated buyers who read "conformant" as "safe."
 
 AARM (Autonomous Action Runtime Management) is a clean example. It carries the imprimatur of a well-known body, it has a public ecosystem of sixty-plus listed builders (per the project's directory as of May 2026), a handful of conformant-badged products, and it reads like a mature category definition. It is also a near-perfect demonstration of how a standard can codify the wrong paradigm and then freeze the whole field around it.
 
