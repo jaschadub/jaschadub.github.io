@@ -29,3 +29,19 @@ OATS is an open specification for zero-trust AI agent execution in environments 
 
 DOI: [10.5281/zenodo.20298543](https://doi.org/10.5281/zenodo.20298543){target="_blank"} • [PDF](https://zenodo.org/records/20298543/files/oats_v1.3.0.pdf?download=1){target="_blank"}
 Related: [Open Agent Trust Stack](https://openagenttruststack.org){target="_blank"} (specification site) • Reference implementation: [Symbiont](https://github.com/thirdkeyai/symbiont){target="_blank"}
+
+### [Three Substrates, Seven Models, Six Tasks: A Comparative Empirical Evaluation of Structural Enforcement for AI Agent Runtimes](https://zenodo.org/records/20043247){target="_blank"}
+*May 5, 2026 — Preprint v0.2*
+
+A comparative empirical study of structural enforcement across three runtime substrates — a permissive Python baseline, Docker-containerized Python with strict bind mounts, and Symbiont (an OATS-compliant runtime) — tested against six adversarial task families using seven LLMs from four vendors across three capability tiers. Symbiont reduces the escape rate to 0% on four pure-action vectors regardless of model tier, and cuts orchestrator-injection escapes from a 59% baseline to 3.6%. Docker sandboxing provides limited, fragile protection dependent on container image composition. The results show OS isolation and typestate-shape enforcement defend against independent threat classes and should be deployed together, with effectiveness holding consistently across frontier, mid-tier, and floor-tier models — the substrate gap is not capability-dependent.
+
+DOI: [10.5281/zenodo.20043247](https://doi.org/10.5281/zenodo.20043247){target="_blank"} • [PDF](https://zenodo.org/records/20043247/files/substrate_comparison_paper-v0_2.pdf?download=1){target="_blank"}
+Related: [Open Agent Trust Stack](https://openagenttruststack.org){target="_blank"} • Runtime: [Symbiont](https://github.com/thirdkeyai/symbiont){target="_blank"}
+
+### [Making Dangerous Tool Arguments Inexpressible: A Declarative Contract Format for LLM Agents](https://zenodo.org/records/19957596){target="_blank"}
+*May 1, 2026 — Preprint v0.2*
+
+ToolClad is a declarative tool-contract format for LLM agents that validates arguments at a structural runtime layer rather than through post-hoc detection, making metacharacter injection, command substitution, path traversal, and scope-target homoglyphs structurally inexpressible. It operates as Layer 2 of the Open Agent Trust Stack, complementing action-level policy gates. Empirical testing across nine LLMs achieved 333 of 335 refusals on attacked `whois_lookup` tool parameters — the two non-refusals representing model-side self-sanitization — across eight attack sub-shapes including command substitution, wildcard injection, and IDN homoglyph attacks.
+
+DOI: [10.5281/zenodo.19957596](https://doi.org/10.5281/zenodo.19957596){target="_blank"} • [PDF](https://zenodo.org/records/19957596/files/toolclad_paper-v0.2.pdf?download=1){target="_blank"}
+Related: [Open Agent Trust Stack](https://openagenttruststack.org){target="_blank"} • Reference implementation: [ToolClad](https://github.com/ThirdKeyAI/ToolClad){target="_blank"} • Reproduction artifacts: [symbiont-orga-demo](https://github.com/ThirdKeyAI/symbiont-orga-demo){target="_blank"}
