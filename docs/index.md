@@ -9,7 +9,7 @@ I'm building the future of AI security at [ThirdKey](https://thirdkey.ai), where
 ### Active Projects
 
 **[Symbiont](https://github.com/thirdkeyai/symbiont)**
-An AI-native, privacy-first programming language and agent framework for autonomous, policy-aware software development. [symbiont.dev](https://symbiont.dev)
+A Rust-native, policy-governed runtime for running AI agents and tools in production. Cedar policy gates, SchemaPin-verified tools, ToolClad contracts, AgentPin identity, per-agent sandboxing (Docker, gVisor, Firecracker, Landlock), human approval gates, and signed, hash-chained audit journals. The reference implementation of OATS. [symbiont.dev](https://symbiont.dev)
 
 **[SchemaPin](https://github.com/ThirdKeyAI/SchemaPin)**
 A cryptographic protocol that ensures tool schema integrity for AI agents, preventing "MCP Rug Pull" attacks by enabling developers to sign schemas and clients to verify them. [schemapin.org](https://schemapin.org)
@@ -46,6 +46,12 @@ A security-focused system including CLI, API, and deployment tooling.
 
 **[Glum](https://github.com/jaschadub/glum)**
 A reading-focused terminal markdown viewer written in Rust — more "Reader Mode in your terminal" than a markdown-as-markdown renderer. Configurable column width, syntax-highlighted code blocks, search, table of contents overlay, and smart typography.
+
+**[RelayFabric](https://github.com/RelayFabric/RelayFabric)**
+A privacy-first, protocol-pluggable routing fabric that bridges otherwise incompatible mesh, radio, messaging, and Internet networks, including Reticulum/LXMF, Meshtastic, MeshCore, Bitchat, Nostr, and Signal. A Rust core daemon handles routing, deduplication, policy, and identity, with each protocol running as an isolated plugin. [docs.relayfabric.org](https://docs.relayfabric.org)
+
+**[meshtripwire](https://github.com/OutandBack/meshtripwire)**
+Camera-free, cloud-free perimeter security for remote properties. Cheap ESP32 and Raspberry Pi sensors detect wireless devices, vehicles (by magnetometer), fence vibration, doors, lightning, and drone Remote ID, then feed a base station that filters, correlates, and alerts. Runs over WiFi/MQTT, with an optional LoRa mesh (Meshtastic, MeshCore, or Reticulum via RelayFabric) for off-grid sites. [docs.meshtripwire.org](https://docs.meshtripwire.org)
 
 ## Professional Background
 
